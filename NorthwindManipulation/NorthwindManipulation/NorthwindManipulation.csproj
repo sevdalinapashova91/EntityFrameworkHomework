@@ -68,7 +68,7 @@
     <Compile Include="Category_Sales_for_1997.cs">
       <DependentUpon>NorthwindEntities.tt</DependentUpon>
     </Compile>
-    <Compile Include="CustomersOperations.cs" />
+    <Compile Include="Operations.cs" />
     <Compile Include="Current_Product_List.cs">
       <DependentUpon>NorthwindEntities.tt</DependentUpon>
     </Compile>
@@ -99,7 +99,6 @@
     <Compile Include="Invoice.cs">
       <DependentUpon>NorthwindEntities.tt</DependentUpon>
     </Compile>
-    <Compile Include="Models\Customer.cs" />
     <Compile Include="NorthwindEntities.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
